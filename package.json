@@ -19,7 +19,7 @@
     "copy-to-docs": "ncp dist/examples ../ag-grid-docs/src/react-examples/examples && ncp dist/trader ../ag-grid-docs/src/react-examples/trader",
     "build-to-docs": "npm run build && npm run copy-to-docs",
     "start": "npm run examples",
-    "unit-test": "SET ENV=debug&& npx karma start karma.conf.js"
+    "unit-test": "npx karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
